@@ -38,13 +38,11 @@ function downloadVCard() {
   const vCardData = `
 BEGIN:VCARD
 VERSION:3.0
-FN:Afaf Mohammad Marouf
+FN:Ahmad Uzair Chaudhary
 TITLE:Sales Manager
 ORG:RISE Properties
-TEL;TYPE=WORK,VOICE:+971521977368
-TEL;TYPE=WORK,VOICE:+971568809032
 TEL;TYPE=WORK,VOICE:+97145665109
-EMAIL:Afaf@riseproperties.ae
+EMAIL:Ahmed.Uzair@riseproperties.ae
 URL:http://www.riseproperties.ae
 ADR;TYPE=WORK:;;PO Box No 455979, Office NO.1607, Opal Tower, Business Bay;Dubai;;UAE
 END:VCARD
@@ -55,7 +53,7 @@ END:VCARD
 
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'Afaf-Mohammad-Marouf.vcf';
+  a.download = 'Ahmad Uzair Chaudhary.vcf';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
